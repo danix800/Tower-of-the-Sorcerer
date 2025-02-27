@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 Simple_window::Simple_window(Point xy, int w, int h, const string& title) :
-    Window(xy,w,h,title),
+    Graph_lib::Window(xy,w,h,title),
     next_button(Point(x_max()-70,0), 70, 20, "Next", cb_next),
     button_pushed(false)
 {
