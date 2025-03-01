@@ -192,7 +192,7 @@ void ResourceManager::loadResources() {
 
   // fonts
   HeiTi = FL_FREE_FONT + 1;
-  Fl::set_font(HeiTi, "黑体");
+  Fl::set_font(HeiTi, "WenQuanYi Micro Hei");
 
 // Initialize SDL_mixer
 #ifndef _WIN32
