@@ -374,4 +374,3 @@ namespace Graph_lib {
 } // of namespace Graph_lib
 
 #endif
-
