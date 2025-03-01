@@ -6,8 +6,7 @@
 #include <fstream>
 using namespace std;
 
-DataManager::DataManager(Game *game) {
-  this->game = game;
+DataManager::DataManager(Game *game) : game(game), hero(nullptr) {
   // init game
   initGameData();
 }
